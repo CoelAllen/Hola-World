@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en>"
+
+head>
+    <meta charset="UTF-8"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola World</title>
+</head>
+
+<body>
+    <h1>Hola World</h1>
+    <p>Cool Site!</p>
+</body>
+<style>
+    div {
+        position: relative;
+    }
+</style>
+
+<div data-bs-spy="scroll" data-bs-target="#navId">
+    
+    <div id="navId">
+        <ul class="nav nav-tabs" role="tablist">
+            
+        </ul>
+    </div>
+    
+</div>
+
+
+<script>
+    var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+      target: '#navId'
+    })
+</script>
